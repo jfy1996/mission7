@@ -84,6 +84,7 @@ footer {
 }
 
 .item {
+    background-color: #FFFFFFFF;
     padding-left: 2.7rem;
     padding-right: 2.5rem;
     display: flex;
