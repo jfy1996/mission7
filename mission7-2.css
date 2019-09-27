@@ -146,6 +146,7 @@ main {
     width: 6.8rem;
     height: 6.8rem;
     margin-right: 1.3rem;
+    border:3px solid #FFFFFFFF;
     padding: 0;
 }
 .member {
@@ -158,9 +159,7 @@ main {
     overflow-x: hidden;
     text-overflow: ellipsis;
     font-size: 1.5rem;
-    border-top:3px solid #FFFFFFFF;
-	border-right:3px solid #FFFFFFFF;
-	border-left:3px solid #FFFFFFFF;
+  
 }                                /*方框内文字*/
 .number {
     background-color: #83b09a;
@@ -174,9 +173,6 @@ main {
     text-overflow: ellipsis;
     color: #FFFFFFFF;
     font-size: 1.1rem;
-    border-bottom:3px solid #FFFFFFFF;
-	border-right:3px solid #FFFFFFFF;
-	border-left:3px solid #FFFFFFFF;
 
 }                                /*方框内数字*/
 .max {
