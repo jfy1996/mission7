@@ -145,26 +145,25 @@ main {
 .box {
     width: 6.8rem;
     height: 6.8rem;
+    border: 3px solid #ffffff;
     margin-right: 1.3rem;
-    border:3px solid #FFFFFFFF;
     padding: 0;
 }
 .member {
     background-color: #F5C97B;
     text-align: center;
-    width: 6.2rem;
+    width: 100%;
     height: 5rem;
     line-height: 5rem;
     white-space: nowrap;
     overflow-x: hidden;
     text-overflow: ellipsis;
     font-size: 1.5rem;
-  
 }                                /*方框内文字*/
 .number {
     background-color: #83b09a;
     opacity: 52%;
-    width: 6.2rem;
+    width: 100%;
     height: 1.2rem;
     line-height: 1.2rem;
     text-align: center;
@@ -172,7 +171,7 @@ main {
     overflow-x: hidden;
     text-overflow: ellipsis;
     color: #FFFFFFFF;
-    font-size: 1.1rem;
+    font-size: 1rem;
 
 }                                /*方框内数字*/
 .max {
