@@ -1,0 +1,224 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font: 62.5% Hiragino Sans GB W3, serif;
+    background-color: #29BDE0;
+}
+
+header {
+    width: 100%;
+    height: 4.4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    background-color: #29BDE0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+.menu-1 {
+    width: 2rem;
+    height: 2rem;
+    background: url("img.png")no-repeat -115px 0;
+
+}
+
+.btn-1 {
+    margin: 1.7rem 0 0.7rem 1.2rem;
+    padding: 0;
+}                                   /*左上角菜单栏*/
+
+
+.title {
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    margin-top: 1.9rem;
+    text-align: center;
+}                                       /*投票标题文字*/
+
+.close {
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url("img.png")no-repeat -77px 0;
+    opacity: 1;
+}                                  /*标题栏右上角关闭图标*/
+.btn-2 {
+    margin: 1.9rem 1.2rem 0.8rem 1.2rem;
+    padding: 0;
+}
+.btn-3 {
+    margin-right: 0.9rem;
+}
+
+nav {
+    width: 100%;
+    height: 6.5rem;
+    position: fixed;
+    top: 4.4rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #29BDE0;
+}
+.title {
+    display: flex;
+}                              /*投票*/
+.title-1 {
+    display: flex;
+    background-color: rgba(255,255,255,0.67);
+    opacity: 0.67;
+    justify-content: space-between;
+}
+.title-2 {
+    font-size: 1.3rem;
+    margin-left: 2.3rem;
+    line-height: 4.1rem;
+}                        /*发言结束，请大家投票*/
+.icon-1 {
+    width: 2.6rem;
+    height: 2.6rem;
+    background: url("img.png")no-repeat -135px 0;
+}                            /*播放图标*/
+audio {
+   opacity: 0;
+    height: 2.6rem;
+}
+.object {
+    background-color: #b3d4fc;
+}
+.space {
+    width: 100%;
+    height: 1.2rem;
+}                         /*小箭头空白*/
+.word-1 {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    margin-left: 3.6rem;
+}                          /*琴酒你坐啊！*/
+
+main {
+    width: 100%;
+    height: 100%;
+    margin-top: 13.1rem;
+    margin-bottom: 10rem;
+    background-color: #29BDE0;
+    overflow: hidden;
+}
+.box-1 {
+    width: 100%;
+    height: 10.5rem;
+    padding: 0 1.2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 6.8rem;
+    height: 6.8rem;
+    border: 3px solid #FFFFFFFF;
+    margin-right: 1.3rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.member {
+    background-color: #F5C97B;
+    text-align: center;
+    line-height: 4.8rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+}                                /*方框内文字*/
+.number {
+    background-color: #83b09a;
+    opacity: 52%;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFFFF;
+    font-size: 1.1rem;
+}                                /*方框内数字*/
+.max {
+    width: 8.1rem;
+    height: 9.4rem;
+}                                 /*鼠标悬停父项*/
+
+.element {
+    width: 7rem;
+    height: 1.5rem;
+    margin-top: 1.1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}                                 /*四选项的框*/
+.max-1 {
+    display: none;
+}                                  /*平时隐藏*/
+.max:hover .max-1 {
+    display: block;
+}                                  /*悬停出现*/
+.kill {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    background: url("img.png")no-repeat -15px 0;
+}                                 /*隐藏图标一*/
+.watch {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    background: url("img.png")no-repeat 0 0;
+}                                 /*隐藏图标二*/
+.focus {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    background: url("img.png")no-repeat -30px 0;
+}                                /*隐藏图标三*/
+.save {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    background: url("img.png")no-repeat -45px 0;
+}                                /*隐藏图标四*/
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 9.5rem;
+    background-color: #29BDE0;;
+    overflow: hidden;
+}
+.vote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-4 {
+    width: 100%;
+    height: 4.4rem;
+    background-color: #FBB435;
+    margin: 2.1rem 3.6rem 3.1rem 3.9rem;
+    padding: 0;
+}
