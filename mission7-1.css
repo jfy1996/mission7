@@ -1,0 +1,172 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font: 62.5% HiraginoSansGB-W3,Serif;
+    background-color: #F0F0F0;
+}
+
+header {
+    width: 100%;
+    height: 4.4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #29BDE0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+main p,footer p {
+    white-space: nowrap;/*不换行*/
+    text-overflow: ellipsis;/*文字隐藏时出现省略号*/
+    overflow-x: hidden;/*修剪内容*/
+}
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+main {
+    height: 5.8rem;
+    margin: 5.8rem 1.8rem 1.4rem;
+}
+.history {
+    height: 5.8rem;
+    background-color: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    align-items: center;
+}
+.page {
+    margin-top: 2rem;
+    margin-left: 1.1rem;
+    padding: 0;
+    width: 1.7rem;
+    height: 1.4rem;
+    background: url("img.png")no-repeat -6rem 0;
+    background-size: 36.3rem 10.3rem;
+}
+
+.word-up {
+    line-height: 5.8rem;
+    font-size: 1.7rem;
+    color: #9A9A9A;
+    text-align: center;
+}
+
+.icon-1 {
+    position: absolute;
+    right: 1rem;
+    top: 7.7rem;
+    box-sizing: border-box;
+}
+
+.arrow-1 {
+    width: 2rem;
+    height: 2rem;
+    border-top: 3px solid #E7E7E7;
+    border-right: 3px solid #E7E7E7;
+    transform: rotate(45deg);
+    margin-right: 2.5rem;
+    box-sizing: border-box;
+}
+
+footer {
+    margin: 0 1.8rem 3.1rem;
+    background-color: #FFFFFFFF;
+    border: 1px solid #C9C9C9;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    background-color: #FFFFFFFF;
+    padding-left: 2.7rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.item-1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.btn-1 {
+    margin: 1.5rem 0 1.3rem 0;
+    background-color: #69D1E9;
+    padding: 0;
+    height: 6.7rem;
+}                                          /*第一行按钮*/
+
+.arrow {
+    position: absolute;
+    right: 1rem;
+    top: 31.8rem;
+
+}
+.content-1 {
+    height: 4.5rem;
+    border-bottom: 1px solid #FBB435;
+    text-align: center;
+
+}
+.word-1 {
+    font-size: 1.9rem;
+    line-height: 4.5rem;
+    color: #FBB435;
+}
+
+.word-2 {
+    font-size: 1.6rem;
+    color: #FFFFFF;                    /*国服日服*/
+    text-align: center;
+    line-height: 6.7rem;
+}
+
+.word-3 {
+    font-size: 1.2rem;
+    color: #787878;
+    text-align: center;
+}
+.point {
+    height: 0.8rem;
+    margin: 0.7rem auto 0.5rem ;
+    overflow-x: hidden;
+}
+
+.point-1,.point-2 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #69D1E9;
+    border-radius: 50%;
+    float: left;
+}
+footer .point-2 {
+    background: #F0F0F0;
+    margin-left: 0.5rem;
+}
+
+.icon-2 {
+    width: 1.4rem;           /*正文三角符号位置*/
+    height: 2.8rem;
+}
+.glyphicon-triangle-right {
+    color: #FBB435;
+    font-size: 2.8rem;
+    margin-right: .5rem;
+
+}
